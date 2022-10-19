@@ -2,7 +2,7 @@ import React, {useEffect, useMemo, useState} from "react";
 import {Outlet} from "react-router-dom";
 import NavBar from "./components/NavBar";
 import {Container, Row} from "react-bootstrap";
-import Links from "./links/Links";
+import Links from "./components/Links";
 import {UserContext} from "./context/UserContext";
 import './App.scss'
 import {CheckUserInLocalStorage} from "./context/CheckUserInLocalStorage";
