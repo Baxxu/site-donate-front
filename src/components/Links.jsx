@@ -1,6 +1,5 @@
 import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
-import PersonalInfo from "../links/PersonalInfo";
 
 const Links = () => {
     return (
@@ -35,10 +34,6 @@ const Links = () => {
                         Back
                     </a>
                 </Col>
-            </Row>
-
-            <Row className="mt-2">
-                <PersonalInfo/>
             </Row>
         </Container>
     );
