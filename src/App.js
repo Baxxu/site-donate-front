@@ -6,8 +6,8 @@ import Links from "./components/Links";
 import {UserContext} from "./context/UserContext";
 import './App.scss'
 import {CheckUserInLocalStorage} from "./context/CheckUserInLocalStorage";
-import SvidetelLeft from "./img/свидетель left.png";
-import SvidetelRight from "./img/свидетель right.png";
+import SvidetelLeft from "./img/svidetelLeft.png";
+import SvidetelRight from "./img/svidetelRight.png";
 
 function App() {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
