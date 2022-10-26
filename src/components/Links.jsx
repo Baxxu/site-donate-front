@@ -1,16 +1,12 @@
 import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
+import PersonalLinks from "../links/PersonalLinks";
 
 const Links = () => {
     return (
         <Container fluid>
             <Row>
-                <Col>
-                    <a className="custom-link p-2" target="_blank" rel="noopener noreferrer"
-                       href="mailto:baxxulol@gmail.com">
-                        baxxulol@gmail.com
-                    </a>
-                </Col>
+                <PersonalLinks/>
             </Row>
 
             <Row className="mt-2">
